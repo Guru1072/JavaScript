@@ -1,0 +1,39 @@
+<html>
+    <body>
+    
+        <form name="form1">
+        <label for="fname">First Name: </label>
+            <input type="text" name="fname" id="fname">
+            <br>
+          <label for="check">Gender: </label><br>
+            <label for="check">Male </label>
+            <input type="checkbox" name="check" id="check"><br>
+            <label for="check">Female </label>
+            <input type="checkbox" name="check" id="check"><br>
+            <label for="fav-b">Select your favorite Browser</label>
+        <input list="browsers" name="fav-b">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+         </datalist>
+             <br>
+            <br>
+        <label for="color">Select your favorite Color</label>
+        <input list="colors" name="color">
+  <datalist id="colors">
+    <option value="green">
+    <option value="blue">
+    <option value="black">
+    <option value="pink">
+  </datalist>
+            <br>
+        <input type="button" name="submit" value="submit"> 
+        </form>
+        <div class="msg" style="color:red"></div>
+         <script src="form.js"></script>
+    </body>
+
+</html>
